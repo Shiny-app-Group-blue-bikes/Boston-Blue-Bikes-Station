@@ -1,5 +1,5 @@
 
-bluebikes = st_read("Blue_Bike_Stations.shp")
+bluebikes = st_read("Blue_Bike_Stations")
 server <- function(input, output) {
   # assign values to `output` here
 
