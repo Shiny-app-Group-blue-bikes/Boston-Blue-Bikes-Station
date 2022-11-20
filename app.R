@@ -8,8 +8,8 @@ library(shiny)
 library(jpeg)
 library(rgdal)
 library("shiny")
-source("ui-copy.R")
-source("server-copy.R")
+source("ui.R")
+source("server.R")
 
 
 shinyApp(ui = ui, server = server)
