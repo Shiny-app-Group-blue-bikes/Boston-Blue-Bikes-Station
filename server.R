@@ -21,8 +21,8 @@ output$my_tmap = renderTmap({
     
 output$charts <- renderPlot({
   ggplot(bluebikesDocksFinder())+
-    geom_histogram( aes(x=Total_dock), color="darkblue", fill="lightblue")+
-    xlab("Total dock")+ylab("density")
+    geom_histogram( aes(x=Total_dock), color="darkblue", fill="lightblue", bins = 30)+
+    xlab("Total docks")+ylab("density")
   
   })
 
