@@ -4,6 +4,7 @@ library(sf)
 library(tmap)
 library(ggplot2)
 
+tmap_options(check.and.fix = T)
 bluebikes = st_read("Blue_Bike_Stations")
 server <- function(input, output) {
   # assign values to `output` here
