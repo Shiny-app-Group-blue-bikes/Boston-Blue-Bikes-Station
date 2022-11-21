@@ -26,10 +26,10 @@ output$charts <- renderPlot({
   
   })
 
-
+bluebikes1 = data.frame(bluebikes)
 
 output$data <-DT::renderDataTable(datatable(
-    bluebikes[-1,-2],filter = 'top', 
+    bluebikes1[,-9],filter = 'top', 
     colnames = c("Number", "Name", "Latitude", "Longtitude", "District", "Public","Total Docks",
                  "ObjectID")
   ))
