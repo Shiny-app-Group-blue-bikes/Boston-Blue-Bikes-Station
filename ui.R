@@ -2,6 +2,7 @@ library(jpeg)
 library(DT)
 library(dplyr)
 library(tmap)
+library(s2)
 
 button_color_css <- "
 #DivCompClear, #FinderClear, #EnterTimes{

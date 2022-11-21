@@ -3,6 +3,7 @@ library(DT)
 library(sf)
 library(tmap)
 library(ggplot2)
+library(s2)
 
 tmap_options(check.and.fix = T)
 bluebikes = st_read("Blue_Bike_Stations")
