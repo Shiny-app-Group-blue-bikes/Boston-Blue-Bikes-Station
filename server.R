@@ -18,12 +18,12 @@ output$my_tmap = renderTmap({
   })  
     
 output$charts <- renderPlot({
-  ggplot()+
-    geom_histogram(data = bluebikesDocksFinder(), aes(x=Total_dock), color="darkblue", fill="lightblue")+
+  ggplot(bluebikesDocksFinder())+
+    geom_histogram( aes(x=Total_dock), color="darkblue", fill="lightblue")+
     xlab("Total dock")+ylab("density")
   
   })
-  
+
 
 
 output$data <-DT::renderDataTable(datatable(
