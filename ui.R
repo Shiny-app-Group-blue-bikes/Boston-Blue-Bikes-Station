@@ -1,3 +1,7 @@
+library(jpeg)
+library(DT)
+library(dplyr)
+library(tmap)
 
 button_color_css <- "
 #DivCompClear, #FinderClear, #EnterTimes{

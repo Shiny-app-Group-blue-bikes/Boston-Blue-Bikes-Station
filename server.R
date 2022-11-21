@@ -1,3 +1,8 @@
+library(shiny)
+library(DT)
+library(sf)
+library(tmap)
+library(ggplot2)
 
 bluebikes = st_read("Blue_Bike_Stations")
 server <- function(input, output) {

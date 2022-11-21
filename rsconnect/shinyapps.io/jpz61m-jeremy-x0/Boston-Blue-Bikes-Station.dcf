@@ -5,9 +5,9 @@ account: jpz61m-jeremy-x0
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7682580
-bundleId: 6534118
+bundleId: 6537043
 url: https://jpz61m-jeremy-x0.shinyapps.io/Boston-Blue-Bikes-Station/
-when: 1668921253.15918
-lastSyncTime: 1668921253.1592
+when: 1669007427.77451
+lastSyncTime: 1669007427.77452
 asMultiple: FALSE
 asStatic: FALSE
